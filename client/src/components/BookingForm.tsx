@@ -210,7 +210,7 @@ export default function BookingForm() {
                     data-testid="checkbox-transfer-service"
                   />
                   <Label htmlFor="transferService" className="text-sm">
-                    Airport Transfer Service (+€25)
+                    Airport Transfer Service (+€30)
                   </Label>
                 </div>
                 

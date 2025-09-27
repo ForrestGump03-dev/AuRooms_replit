@@ -13,7 +13,7 @@ export default function RoomCardExample() {
         description="Spacious room with breathtaking Mediterranean sea views, featuring modern amenities and traditional Sicilian charm."
         price={120}
         maxGuests={2}
-        amenities={["WiFi", "Sea View", "Private Bathroom", "Air Conditioning", "Continental Breakfast"]}
+        amenities={["WiFi", "Private Bathroom", "Air Conditioning", "Continental Breakfast"]}
         isAvailable={true}
       />
       <RoomCard
@@ -24,7 +24,7 @@ export default function RoomCardExample() {
         description="Luxury suite with panoramic views, separate living area, and premium amenities for the perfect Sicilian getaway."
         price={180}
         maxGuests={4}
-        amenities={["WiFi", "Sea View", "Balcony", "Air Conditioning", "Continental Breakfast", "Private Bathroom"]}
+        amenities={["WiFi", "Balcony", "Air Conditioning", "Continental Breakfast", "Private Bathroom"]}
         isAvailable={true}
       />
     </div>

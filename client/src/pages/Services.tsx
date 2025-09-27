@@ -51,7 +51,7 @@ export default function Services() {
                 "Flight monitoring service",
                 "Meet & greet at arrivals"
               ]}
-              price="€25"
+              price="€30"
             />
             
             <ServiceCard

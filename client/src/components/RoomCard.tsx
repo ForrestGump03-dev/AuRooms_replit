@@ -18,7 +18,6 @@ interface RoomCardProps {
 
 const amenityIcons: Record<string, React.ReactNode> = {
   "WiFi": <Wifi className="w-4 h-4" />,
-  "Sea View": <Waves className="w-4 h-4" />,
   "Private Bathroom": <Bed className="w-4 h-4" />,
   "Air Conditioning": <Car className="w-4 h-4" />,
   "Continental Breakfast": <Coffee className="w-4 h-4" />,

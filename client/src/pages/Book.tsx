@@ -45,15 +45,7 @@ export default function Book() {
                     </li>
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-card-foreground">Free airport transfer on stays 3+ nights</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-card-foreground">Complimentary room upgrade (subject to availability)</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-card-foreground">Flexible cancellation policy</span>
+                      <span className="text-sm text-card-foreground">Tourist tax included</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -78,7 +70,7 @@ export default function Book() {
                       <Phone className="w-5 h-5 text-primary" />
                       <div>
                         <p className="font-medium text-card-foreground text-sm">Phone</p>
-                        <p className="text-muted-foreground text-sm">+39 091 123 4567</p>
+                        <p className="text-muted-foreground text-sm">+39 375 884 3175</p>
                       </div>
                     </div>
                     
@@ -86,7 +78,7 @@ export default function Book() {
                       <Mail className="w-5 h-5 text-primary" />
                       <div>
                         <p className="font-medium text-card-foreground text-sm">Email</p>
-                        <p className="text-muted-foreground text-sm">bookings@aurooms.com</p>
+                        <p className="text-muted-foreground text-sm">info@aurooms.it</p>
                       </div>
                     </div>
                     
@@ -94,7 +86,7 @@ export default function Book() {
                       <MessageCircle className="w-5 h-5 text-primary" />
                       <div>
                         <p className="font-medium text-card-foreground text-sm">WhatsApp</p>
-                        <p className="text-muted-foreground text-sm">+39 091 123 4567</p>
+                        <p className="text-muted-foreground text-sm">+39 375 884 3175</p>
                       </div>
                     </div>
                   </div>
@@ -112,16 +104,16 @@ export default function Book() {
                     <div>
                       <h4 className="font-medium text-card-foreground mb-1">Check-in / Check-out</h4>
                       <p className="text-muted-foreground">
-                        Check-in: 15:00 - 22:00<br />
-                        Check-out: 08:00 - 11:00
+                        Check-in: 15:00 - 21:00<br />
+                        Check-out: until 11:00
                       </p>
                     </div>
                     
                     <div>
                       <h4 className="font-medium text-card-foreground mb-1">Cancellation</h4>
                       <p className="text-muted-foreground">
-                        Free cancellation up to 24 hours before arrival. 
-                        Late cancellations subject to one night charge.
+                        Free cancellation up to 7 days before arrival. 
+                        Late cancellations subject to entire stay charge.
                       </p>
                     </div>
                     
@@ -150,7 +142,7 @@ export default function Book() {
                     <Button 
                       variant="outline" 
                       className="w-full" 
-                      onClick={() => window.open('https://booking.com', '_blank')}
+                      onClick={() => window.open('https://www.booking.com/Share-GSS1WL', '_blank')}
                       data-testid="button-booking-com"
                     >
                       Book on Booking.com
@@ -158,7 +150,7 @@ export default function Book() {
                     <Button 
                       variant="outline" 
                       className="w-full"
-                      onClick={() => window.open('https://airbnb.com', '_blank')}
+                      onClick={() => window.open('https://www.airbnb.it/users/show/470222530', '_blank')}
                       data-testid="button-airbnb"
                     >
                       Book on Airbnb

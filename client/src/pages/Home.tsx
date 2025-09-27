@@ -9,8 +9,7 @@ import { Link } from "wouter";
 import luxuryRoomImage from "@assets/generated_images/Luxury_Mediterranean_hotel_room_4952b043.png";
 import suitImage from "@assets/generated_images/Modern_guest_house_suite_44edca0e.png";
 import traditionalRoomImage from "@assets/generated_images/Traditional_Sicilian_bedroom_d52cff9b.png";
-import breakfastImage from "@assets/generated_images/Sicilian_breakfast_spread_57fda05f.png";
-import guestAvatar from "@assets/generated_images/Happy_guest_testimonial_photo_983a40f9.png";
+import breakfastImage from "@assets/generated_images/sicilia_night.png";
 
 export default function Home() {
   // todo: remove mock functionality - replace with real room data
@@ -23,7 +22,7 @@ export default function Home() {
       description: "Spacious room with breathtaking Mediterranean sea views, featuring modern amenities and traditional Sicilian charm.",
       price: 120,
       maxGuests: 2,
-      amenities: ["WiFi", "Sea View", "Private Bathroom", "Air Conditioning", "Continental Breakfast"]
+      amenities: ["WiFi", "Private Bathroom", "Air Conditioning", "Continental Breakfast"]
     },
     {
       id: "mediterranean-suite",
@@ -33,7 +32,7 @@ export default function Home() {
       description: "Luxury suite with panoramic views, separate living area, and premium amenities for the perfect Sicilian getaway.",
       price: 180,
       maxGuests: 4,
-      amenities: ["WiFi", "Sea View", "Balcony", "Air Conditioning", "Continental Breakfast", "Private Bathroom"]
+      amenities: ["WiFi", "Balcony", "Air Conditioning", "Continental Breakfast", "Private Bathroom"]
     },
     {
       id: "traditional-room",
@@ -51,27 +50,24 @@ export default function Home() {
   const testimonials = [
     {
       name: "Marco Rossi",
-      avatar: guestAvatar,
       location: "Milan, Italy",
       rating: 5,
       comment: "Perfect location just minutes from the airport! The sea view was breathtaking and the Sicilian breakfast was absolutely delicious. Will definitely return!",
-      date: "Sept 2024"
+      date: "Sept 2025"
     },
     {
       name: "Sarah Johnson",
-      avatar: guestAvatar,
       location: "London, UK",
       rating: 5,
       comment: "AuRooms exceeded all expectations. The authentic Sicilian hospitality combined with modern luxury made our stay unforgettable. Highly recommended!",
-      date: "Aug 2024"
+      date: "Aug 2025"
     },
     {
       name: "Hans Mueller",
-      avatar: guestAvatar,
       location: "Berlin, Germany",
       rating: 4,
       comment: "Excellent guest house with beautiful rooms and amazing views. The staff was incredibly helpful and the location perfect for exploring Cinisi.",
-      date: "July 2024"
+      date: "July 2025"
     }
   ];
 
@@ -199,6 +195,7 @@ export default function Home() {
       {/* Services Preview Section */}
       <section className="py-16 bg-accent/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
           <div className="text-center mb-12">
             <h2 className="font-serif text-3xl lg:text-4xl font-bold text-foreground mb-4">
               Premium Services
@@ -213,7 +210,7 @@ export default function Home() {
               icon={<Plane className="w-6 h-6" />}
               title="Airport Transfer"
               description="Convenient transfer service available 24/7"
-              price="€25"
+              price="€30"
             />
             <ServiceCard
               icon={<Coffee className="w-6 h-6" />}
@@ -226,12 +223,6 @@ export default function Home() {
               title="Concierge Service"
               description="Personalized assistance for local experiences"
               isIncluded={true}
-            />
-            <ServiceCard
-              icon={<Car className="w-6 h-6" />}
-              title="Vehicle Rental"
-              description="Cars and scooters to explore Sicily"
-              price="From €35/day"
             />
           </div>
           
@@ -281,10 +272,6 @@ export default function Home() {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary mr-3" />
-                  <span className="text-foreground">Traditional Sicilian breakfast with cannoli and fresh ricotta</span>
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-primary mr-3" />
                   <span className="text-foreground">Local insights and recommendations from our team</span>
                 </li>
                 <li className="flex items-center">
@@ -293,7 +280,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-primary mr-3" />
-                  <span className="text-foreground">Wine tasting and culinary tour arrangements</span>
+                  <span className="text-foreground">Live music and entertainment options</span>
                 </li>
               </ul>
               <Link href="/contact" data-testid="button-learn-more">

@@ -14,7 +14,7 @@ export default function ServiceCardExample() {
           "Luggage assistance included",
           "Direct route to guest house"
         ]}
-        price="€25"
+        price="€30"
       />
       
       <ServiceCard

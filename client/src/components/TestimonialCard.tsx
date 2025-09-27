@@ -3,7 +3,6 @@ import { Star } from "lucide-react";
 
 interface TestimonialCardProps {
   name: string;
-  avatar: string;
   location: string;
   rating: number;
   comment: string;
@@ -11,8 +10,7 @@ interface TestimonialCardProps {
 }
 
 export default function TestimonialCard({ 
-  name, 
-  avatar, 
+  name,  
   location, 
   rating, 
   comment, 
@@ -40,12 +38,6 @@ export default function TestimonialCard({
 
         {/* Guest Info */}
         <div className="flex items-center space-x-3">
-          <img
-            src={avatar}
-            alt={name}
-            className="w-10 h-10 rounded-full object-cover"
-            data-testid={`img-avatar-${name.toLowerCase().replace(/\s+/g, '-')}`}
-          />
           <div>
             <div className="font-medium text-card-foreground text-sm" data-testid={`text-guest-name-${name.toLowerCase().replace(/\s+/g, '-')}`}>
               {name}

@@ -22,7 +22,7 @@ export default function Rooms() {
       description: "Spacious room with breathtaking Mediterranean sea views, featuring modern amenities and traditional Sicilian charm. Perfect for couples seeking luxury and romance.",
       price: 120,
       maxGuests: 2,
-      amenities: ["WiFi", "Sea View", "Private Bathroom", "Air Conditioning", "Continental Breakfast", "Balcony"],
+      amenities: ["WiFi", "Private Bathroom", "Air Conditioning", "Continental Breakfast", "Balcony"],
       isAvailable: true
     },
     {
@@ -33,7 +33,7 @@ export default function Rooms() {
       description: "Luxury suite with panoramic views, separate living area, and premium amenities for the perfect Sicilian getaway. Ideal for families or longer stays.",
       price: 180,
       maxGuests: 4,
-      amenities: ["WiFi", "Sea View", "Balcony", "Air Conditioning", "Continental Breakfast", "Private Bathroom", "Living Area", "Minibar"],
+      amenities: ["WiFi", "Balcony", "Air Conditioning", "Continental Breakfast", "Private Bathroom", "Living Area", "Minibar"],
       isAvailable: true
     },
     {
@@ -55,7 +55,7 @@ export default function Rooms() {
       description: "Spacious suite perfect for families, featuring two bedrooms, large bathroom, and comfortable common area with all modern amenities.",
       price: 220,
       maxGuests: 6,
-      amenities: ["WiFi", "Sea View", "Two Bedrooms", "Air Conditioning", "Continental Breakfast", "Private Bathroom", "Living Area"],
+      amenities: ["WiFi", "Two Bedrooms", "Air Conditioning", "Continental Breakfast", "Private Bathroom", "Living Area"],
       isAvailable: false
     },
     {
@@ -77,7 +77,7 @@ export default function Rooms() {
       description: "Elegant junior suite with separate seating area, perfect for business travelers or couples wanting extra space and comfort.",
       price: 140,
       maxGuests: 3,
-      amenities: ["WiFi", "Sea View", "Seating Area", "Air Conditioning", "Continental Breakfast", "Private Bathroom", "Desk"],
+      amenities: ["WiFi", "Seating Area", "Air Conditioning", "Continental Breakfast", "Private Bathroom", "Desk"],
       isAvailable: true
     }
   ];

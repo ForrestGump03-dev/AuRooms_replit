@@ -70,24 +70,24 @@ export default function Footer() {
               <li className="flex items-start space-x-2 text-sm">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground">
-                  Via Roma 123<br />
+                  Piazza Pietro Venuti 12<br />
                   90045 Cinisi, Sicily, Italy
                 </span>
               </li>
               <li className="flex items-center space-x-2 text-sm">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">+39 091 123 4567</span>
+                <span className="text-muted-foreground">+39 375 884 3175</span>
               </li>
               <li className="flex items-center space-x-2 text-sm">
                 <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground">info@aurooms.com</span>
+                <span className="text-muted-foreground">info@aurooms.it</span>
               </li>
               <li className="flex items-start space-x-2 text-sm">
                 <Clock className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground">
                   Reception: 24/7<br />
-                  Check-in: 15:00 - 22:00<br />
-                  Check-out: 08:00 - 11:00
+                  Check-in: 15:00 - 21:00<br />
+                  Check-out: until 11:00
                 </span>
               </li>
             </ul>
@@ -117,7 +117,7 @@ export default function Footer() {
         <div className="border-t border-card-border mt-8 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <p className="text-muted-foreground text-sm">
-              © 2024 AuRooms Guest House. All rights reserved.
+              © 2025 AuRooms Guest House. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-privacy">
